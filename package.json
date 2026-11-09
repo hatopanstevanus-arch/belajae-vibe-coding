@@ -1,0 +1,19 @@
+{
+  "name": "belajae-vibe-coding",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "start": "bun src/index.ts",
+    "db:generate": "drizzle-kit generate:mysql",
+    "db:push": "drizzle-kit push:mysql"
+  },
+  "dependencies": {
+    "elysia": "*",
+    "drizzle-orm": "*",
+    "mysql2": "*"
+  },
+  "devDependencies": {
+    "drizzle-kit": "*"
+  }
+}
